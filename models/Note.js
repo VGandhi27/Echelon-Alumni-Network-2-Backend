@@ -14,6 +14,10 @@ const NotesSchema = new Schema({
         type: String,
         required: true, 
     },
+    // photo:{
+    //     type:String,
+    //     default:"no photo",
+    // },
     tag:{
         type: String,
         default: "General"
